@@ -1,9 +1,7 @@
-import { users } from "../data/usersList";
-
-export const StoryList = ({ thumbnailClickHandler }) => {
+export const StoryList = ({ thumbnailClickHandler, users }) => {
   return (
     <div className="story-list">
-      {users.map(({ username, profilePic }, index) => {
+      {users?.map(({ username, profilePic }, index) => {
         return (
           <div
             key={index}

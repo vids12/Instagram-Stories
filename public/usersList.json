@@ -1,0 +1,152 @@
+[
+  {
+    "username": "john_doe",
+    "profilePic": "https://i.pravatar.cc/100?u=john_doe",
+    "stories": [
+      {
+        "url": "https://images.unsplash.com/photo-1607746882042-944635dfe10e?auto=format&fit=crop&w=400&h=700&q=80",
+        "timestamp": "2025-05-25T08:20:00"
+      }
+    ]
+  },
+  {
+    "username": "jane_smith",
+    "profilePic": "https://i.pravatar.cc/100?u=jane_smith",
+    "stories": [
+      {
+        "url": "https://images.unsplash.com/photo-1519125323398-675f0ddb6308?auto=format&fit=crop&w=400&h=700&q=80",
+        "timestamp": "2025-05-25T08:10:00"
+      }
+    ]
+  },
+  {
+    "username": "kevin_lee",
+    "profilePic": "https://i.pravatar.cc/100?u=kevin_lee",
+    "stories": [
+      {
+        "url": "https://images.unsplash.com/photo-1503023345310-bd7c1de61c7d?auto=format&fit=crop&w=400&h=700&q=80",
+        "timestamp": "2025-05-25T08:00:00"
+      }
+    ]
+  },
+  {
+    "username": "emma_w",
+    "profilePic": "https://i.pravatar.cc/100?u=emma_w",
+    "stories": [
+      {
+        "url": "https://images.unsplash.com/photo-1508672019048-805c876b67e2?auto=format&fit=crop&w=400&h=700&q=80",
+        "timestamp": "2025-05-25T07:50:00"
+      }
+    ]
+  },
+  {
+    "username": "david_k",
+    "profilePic": "https://i.pravatar.cc/100?u=david_k",
+    "stories": [
+      {
+        "url": "https://images.unsplash.com/photo-1554774853-b414d2a2fc99?auto=format&fit=crop&w=400&h=700&q=80",
+        "timestamp": "2025-05-25T07:40:00"
+      }
+    ]
+  },
+  {
+    "username": "sara_m",
+    "profilePic": "https://i.pravatar.cc/100?u=sara_m",
+    "stories": [
+      {
+        "url": "https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?auto=format&fit=crop&w=400&h=700&q=80",
+        "timestamp": "2025-05-25T07:30:00"
+      }
+    ]
+  },
+  {
+    "username": "ryan_j",
+    "profilePic": "https://i.pravatar.cc/100?u=ryan_j",
+    "stories": [
+      {
+        "url": "https://images.unsplash.com/photo-1504198266285-165a16f932dd?auto=format&fit=crop&w=400&h=700&q=80",
+        "timestamp": "2025-05-25T07:20:00"
+      }
+    ]
+  },
+  {
+    "username": "olivia_h",
+    "profilePic": "https://i.pravatar.cc/100?u=olivia_h",
+    "stories": [
+      {
+        "url": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=400&h=700&q=80",
+        "timestamp": "2025-05-25T07:10:00"
+      }
+    ]
+  },
+  {
+    "username": "brandon_t",
+    "profilePic": "https://i.pravatar.cc/100?u=brandon_t",
+    "stories": [
+      {
+        "url": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=400&h=700&q=80",
+        "timestamp": "2025-05-25T07:00:00"
+      }
+    ]
+  },
+  {
+    "username": "nina_g",
+    "profilePic": "https://i.pravatar.cc/100?u=nina_g",
+    "stories": [
+      {
+        "url": "https://images.unsplash.com/photo-1531123897727-8f129e1688ce?auto=format&fit=crop&w=400&h=700&q=80",
+        "timestamp": "2025-05-25T06:50:00"
+      }
+    ]
+  },
+  {
+    "username": "alex_z",
+    "profilePic": "https://i.pravatar.cc/100?u=alex_z",
+    "stories": [
+      {
+        "url": "https://images.unsplash.com/photo-1500917293891-ef795e70e1f6?auto=format&fit=crop&w=400&h=700&q=80",
+        "timestamp": "2025-05-25T06:40:00"
+      }
+    ]
+  },
+  {
+    "username": "mia_r",
+    "profilePic": "https://i.pravatar.cc/100?u=mia_r",
+    "stories": [
+      {
+        "url": "https://images.unsplash.com/photo-1552058544-f2b08422138a?auto=format&fit=crop&w=400&h=700&q=80",
+        "timestamp": "2025-05-25T06:30:00"
+      }
+    ]
+  },
+  {
+    "username": "tom_f",
+    "profilePic": "https://i.pravatar.cc/100?u=tom_f",
+    "stories": [
+      {
+        "url": "https://images.unsplash.com/photo-1607746882042-944635dfe10e?auto=format&fit=crop&w=400&h=700&q=80",
+        "timestamp": "2025-05-25T06:20:00"
+      }
+    ]
+  },
+  {
+    "username": "lisa_b",
+    "profilePic": "https://i.pravatar.cc/100?u=lisa_b",
+    "stories": [
+      {
+        "url": "https://images.unsplash.com/photo-1603415526960-f8f112d2b54a?auto=format&fit=crop&w=400&h=700&q=80",
+        "timestamp": "2025-05-25T06:10:00"
+      }
+    ]
+  },
+  {
+    "username": "michael_ross",
+    "profilePic": "https://i.pravatar.cc/100?u=michael_ross",
+    "stories": [
+      {
+        "url": "https://images.unsplash.com/photo-1603570426635-6c087f1f3d2b?auto=format&fit=crop&w=400&h=700&q=80",
+        "timestamp": "2025-05-25T06:00:00"
+      }
+    ]
+  }
+]
