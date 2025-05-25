@@ -1,23 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
+import { useState } from "react";
+import "./App.css";
+import { StoryList } from "./components/StoryList";
+import { StoryViewer } from "./components/StoryViewer";
 
 function App() {
+  var [currentIndex, setCurrentIndex] = useState(null);
+  var thumbnailClickHandler = (index) => {
+    setCurrentIndex(index);
+  };
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <StoryList thumbnailClickHandler={thumbnailClickHandler} />
+      {currentIndex !== null && (
+        <StoryViewer
+          currentIndex={currentIndex}
+          setCurrentIndex={setCurrentIndex}
+        />
+      )}
     </div>
   );
 }

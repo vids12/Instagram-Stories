@@ -1,38 +1,130 @@
-.App {
-  text-align: center;
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+html {
+  /* font-size: 10px; */
+  font-size: 62.5%;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+@media (max-width: 768px) {
+  body {
+    font-family: sans-serif;
+    background: #000;
+    color: #fff;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    touch-action: manipulation;
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  .story-list {
+    display: flex;
+    margin: 1rem;
+    overflow-x: auto;
+    scrollbar-width: none;
   }
-  to {
-    transform: rotate(360deg);
+  .scrollbar-hidden::-webkit-scrollbar {
+    display: none;
+  }
+  .story-thumbnail {
+    flex: 0 0 auto;
+    text-align: center;
+    margin-right: 10px;
+    cursor: pointer;
+  }
+  .profile-pic {
+    width: 6.5rem;
+    height: 6.5rem;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    object-fit: cover;
+  }
+  .username {
+    font-size: 1.2rem;
+    color: #ccc;
+    margin-top: 0.5rem;
+  }
+
+  .story-viewer {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    background: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 99;
+  }
+  .story__heading {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+  }
+  .story__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    padding: 0.5rem;
+  }
+  .story__user {
+    display: flex;
+    align-items: center;
+  }
+  .story__user .profile-pic {
+    width: 3.5rem;
+    height: 3.5rem;
+  }
+  .story__user-info {
+    margin-left: 0.5rem;
+  }
+  .user-time {
+    font-size: 1rem;
+    color: #ccc;
+  }
+  .story__close {
+    font-size: 2rem;
+    cursor: pointer;
+    z-index: 10000;
+  }
+  .story__progress-bar {
+    height: 0.25rem;
+    background: rgba(255, 255, 255, 0.2);
+  }
+  .progress-bar {
+    height: 100%;
+  }
+
+  .progress-bar.active {
+    background-color: rgba(255, 255, 255, 0.8);
+    animation: progress 5s linear;
+    transition: all 0.5s;
+  }
+
+  .tap-zone {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    z-index: 999;
+    width: 33.33%;
+  }
+
+  .tap-zone.left {
+    left: 0;
+  }
+  .tap-zone.right {
+    right: 0;
+  }
+
+  @keyframes progress {
+    0% {
+      width: 0%;
+    }
+    100% {
+      width: 100%;
+    }
   }
 }
