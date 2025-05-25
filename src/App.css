@@ -127,4 +127,14 @@ html {
       width: 100%;
     }
   }
+
+  .fade-in {
+    opacity: 1;
+    transition: opacity 0.3s ease-in;
+  }
+
+  .fade-out {
+    opacity: 0;
+    transition: opacity 0.3s ease-out;
+  }
 }
